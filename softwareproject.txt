@@ -842,7 +842,8 @@ public class Booking extends JFrame implements ActionListener{
             {
                 this.to.addItem(i);
             }
-    	    
+
+
     	    depart1.addItem("Days");
     	    depart2.addItem("Month");
     	    depart3.addItem("Year");
@@ -890,12 +891,12 @@ public class Booking extends JFrame implements ActionListener{
             {
                 this.classi.addItem(i);
             }
-    	    help.addItem("Airline");
-    	    help.addItem("Emirates");
-    	    help.addItem("QatarAir");
-    	    help.addItem("TurkishAir");
-    	    help.addItem("AsiaAir");
-    	    
+    	   
+    	    //edited part
+	    help.addItem("shaban");
+	    help.addItem("sengz");
+	    help.addItem("Wezoe");
+	    help.addItem("dlamini");
             this.orT.clearSelection();
             dispose();
             
